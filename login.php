@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Autor | Sin Collar</title>
+        <link rel="icon" href="img/logo_white.png" type="image/png">
         <link rel="stylesheet" href="css/estilo.css">
         <script src="js/valida_login.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -15,7 +16,7 @@
         <div id="cabecera">
             <nav class="navbar navbar-expand-lg w-auto p-4" data-bs-theme="dark" >
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="img/logo_white.png" alt="Logo" width="30" height="28" class="d-inline-block">
                         Sin-Collar
                     </a>

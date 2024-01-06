@@ -32,6 +32,7 @@ $publicaciones_pagina_actual = array_slice($publicaciones, $inicio, $publicacion
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Adopta | Sin Collar</title>
+        <link rel="icon" href="img/logo_white.png" type="image/png">
         <link rel="stylesheet" href="css/estilo.css">
         <script src="js/test.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
@@ -42,7 +43,7 @@ $publicaciones_pagina_actual = array_slice($publicaciones, $inicio, $publicacion
         <div id="cabecera">
             <nav class="navbar navbar-expand-lg w-auto p-4" data-bs-theme="dark" >
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="img/logo_white.png" alt="Logo" width="30" height="28" class="d-inline-block">
                         Sin-Collar
                     </a>

@@ -15,6 +15,7 @@ $ubicacion = $d->getDatos("select * from tb_region");
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Publica | Sin Collar</title>
+        <link rel="icon" href="img/logo_white.png" type="image/png">
         <link rel="stylesheet" href="css/estilo.css">
         <script src="js/valida_publicacion.js"></script>    
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
@@ -26,7 +27,7 @@ $ubicacion = $d->getDatos("select * from tb_region");
         <div id="cabecera">
             <nav class="navbar navbar-expand-lg w-auto p-4" data-bs-theme="dark" >
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="img/logo_white.png" alt="Logo" width="30" height="28" class="d-inline-block">
                         Sin-Collar
                     </a>
