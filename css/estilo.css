@@ -57,7 +57,7 @@ body {
 #cabecera
 {
     background-color: #101214;
-    opacity: 0.95;
+    opacity: 0.96;
     position: initial;
     width: 100%;
     font-family: 'perrito', sans-serif;
@@ -96,7 +96,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    opacity: 0.95;
+    opacity: 0.96;
     padding: 1em 0;
 
 }

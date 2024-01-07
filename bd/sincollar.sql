@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 27-10-2023 a las 04:48:55
+-- Tiempo de generación: 07-01-2024 a las 03:11:13
 -- Versión del servidor: 10.4.28-MariaDB
 -- Versión de PHP: 8.0.28
 
@@ -40,7 +40,16 @@ CREATE TABLE `tb_mensajes` (
 
 INSERT INTO `tb_mensajes` (`id_mensaje`, `nombre`, `correo`, `mensaje`) VALUES
 (10, 'sebas', 'ssilvafraile@gmail.com', 'muy buena iniciativa'),
-(11, 'Confidencial', 'ss@gmail.com', 'Excelente pagina web!');
+(11, 'Confidencial', 'ss@gmail.com', 'Excelente pagina web!'),
+(12, 'sebastian', 'ssilvafraile@gmail.com', 'aaaa'),
+(13, 'sebastian', 'ssilvafraile@gmail.com', 'sss'),
+(14, 'sebastian', 'ssilvafraile@gmail.com', 'ssss'),
+(15, 'sebastian', 'ssilvafraile@gmail.com', 'sss'),
+(16, 'tttttttttttt', 'ss@gmail.com', 'tttt'),
+(17, 'sebas', 'ssilvafraile@gmail.com', 'ooooooooooo'),
+(19, 's', 'ssilvafraile@gmail.com', 'sss'),
+(20, 'sebastian', 'ssilvafraile@gmail.com', 'sss'),
+(21, 'ss', 'ssilvafraile@gmail.com', 'ss');
 
 -- --------------------------------------------------------
 
@@ -69,7 +78,10 @@ CREATE TABLE `tb_publicacion` (
 INSERT INTO `tb_publicacion` (`id_publicacion`, `nombre_dueno`, `ap_dueno`, `edad_dueno`, `fono_dueno`, `correo_dueno`, `id_sexo`, `id_region`, `upload_foto`, `descripcion_dueno`, `fecha_creacion`) VALUES
 (47, 'sebastian', 'Silva', 30, '964941860', 'ssilvafraile@gmail.com', 3, 16, 'upload/1696903837.png', 'test', '2023-10-09'),
 (48, 'Pirata', 'Silva', 24, '962521280', 'ss@gmail.com', 3, 8, 'upload/1698196647.png', 'Pirata, lo encontramos en pichilemu hace unos meses, falta llevarlo al veterinario.', '2023-10-24'),
-(49, 'Matilda', 'Silva', 25, '965232015', 'test@test.cl', 2, 10, 'upload/1698290882.png', 'Gatita esterilizada, muy regalona, con sus vacunas al día busca hogar definitivo.\r\nmas información contactarme a mi celular o correo.', '2023-10-26');
+(49, 'Matilda', 'Silva', 25, '965232015', 'test@test.cl', 2, 10, 'upload/1698290882.png', 'Gatita esterilizada, muy regalona, con sus vacunas al día busca hogar definitivo.\r\nmas información contactarme a mi celular o correo.', '2023-10-26'),
+(50, 'sebastian', 'Silva', 30, '964941860', 'ssilvafraile@gmail.com', 3, 8, 'upload/1704164507.jpg', 'lala test', '2024-01-02'),
+(52, 'sebastian', 'silva', 31, '964941860', 'ssilvafraile@gmail.com', 3, 16, 'upload/1704491850.png', 'pichilemino perdido', '2024-01-05'),
+(53, 'sebastian', 'Silva', 30, '964941860', 'ss@gmail.com', 4, 8, 'upload/1704491984.png', 'sssssss', '2024-01-05');
 
 -- --------------------------------------------------------
 
@@ -189,13 +201,13 @@ ALTER TABLE `tb_usuario`
 -- AUTO_INCREMENT de la tabla `tb_mensajes`
 --
 ALTER TABLE `tb_mensajes`
-  MODIFY `id_mensaje` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_mensaje` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT de la tabla `tb_publicacion`
 --
 ALTER TABLE `tb_publicacion`
-  MODIFY `id_publicacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
+  MODIFY `id_publicacion` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55;
 
 --
 -- AUTO_INCREMENT de la tabla `tb_region`
